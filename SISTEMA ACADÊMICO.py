@@ -44,8 +44,6 @@ email=None
 telefone=None
 telefone2=None
 
-
-
 """Cadastro do estudante"""
 def cadastro_estudante():
     global laluno_cadastrado
@@ -168,7 +166,6 @@ def cadastro_estudante():
             print("Telefone inválido.")
             telefone2 = input("Telefone para contato (2° opção): ").strip()
         
-    
         print("--------------------------------------------------")
         print(" ")
         print("          Aluno cadastrado com sucesso!           ")
@@ -543,3 +540,4 @@ teste_resto = 10 % 3
 
 #Inicia o programa
 menu()
+
